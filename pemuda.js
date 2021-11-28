@@ -7409,96 +7409,95 @@ case 'orderan':
        menu = `*Jika anda berminat untuk sewa bot, silahkan chat ke @${otod.split('@')[0]}*`
        sendButLocation(from, `${menu}`, `${uwu}© Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}oakaoak`,buttonText:{displayText:'OKEY'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
-                    case 'jasher':
-                    case 'js':
-        ptod = "62838165647110@s.whatsapp.net"
-        stod = `${sender}`
-        uwu = '```'
-       stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
-				stst = stst.status == 401 ? '' : stst.status
-			
-       menu = `🇯‌‌🇦‌‌🇸‌‌🇦‌ 🇸‌‌🇭‌‌🇦‌‌🇷‌‌🇪‌
+                   case 'jasashare':
+case 'js':
+stod = `${sender}`
+stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
 
-*˒ ࣪ ꉂ🧁ᥐʾ ֛ChelLStoReᏪ ָ࣪🧋۰*
-┈─  ꕀ  ───    ꕀ    ───  ꕀ   ─┈
-
-*- Paket 50 Group-*
-ぬ ࣪▸ˑ ִֶָ 🍨 1× Share : 500p
-ぬ ࣪▸ˑ ִֶָ 🍨 2× Share : 1k
-ぬ ࣪▸ˑ ִֶָ 🍨 3× Share : 1.5k
-ぬ ࣪▸ˑ ִֶָ 🍨 4× Share : 2k
-ぬ ࣪▸ˑ ִֶָ 🍨 5× Share : 2.5k
-*(Dijamin ngalir 40%)*
-
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿✦
-
-*- Paket 100 Group -*
-ぬ ࣪▸ˑ ִֶָ 🍿 1× Share : 1k
-ぬ ࣪▸ˑ ִֶָ 🍿 2× Share : 2k
-ぬ ࣪▸ˑ ִֶָ 🍿 3× Share : 3k
-ぬ ࣪▸ˑ ִֶָ 🍿 4× Share : 4k
-ぬ ࣪▸ˑ ִֶָ 🍿 5× Share : 5k
-*(Dijamin ngalir 60%)*
-
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿✦
-
-*- Paket 200 Group -*
-ぬ ࣪▸ˑ ִֶָ 🍥 1× ꜱʜᴀʀᴇ : 2k
-ぬ ࣪▸ˑ ִֶָ 🍥 2× ꜱʜᴀʀᴇ : 3.5k
-ぬ ࣪▸ˑ ִֶָ 🍥 3× ꜱʜᴀʀᴇ : 5k
-ぬ ࣪▸ˑ ִֶָ 🍥 4× ꜱʜᴀʀᴇ : 6.5k
-ぬ ࣪▸ˑ ִֶָ 🍥 5× ꜱʜᴀʀᴇ : 8k
-*(Dijamin ngalir 80%)*
-
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿✦
-
-*- Paket 300 Group -*
-ぬ ࣪▸ˑ ִֶָ 🥧 1× Share : 3k
-ぬ ࣪▸ˑ ִֶָ 🥧 2× Share : 5k
-ぬ ࣪▸ˑ ִֶָ 🥧 3× Share : 7k
-ぬ ࣪▸ˑ ִֶָ 🥧 4× Share : 9k
-ぬ ࣪▸ˑ ִֶָ 🥧 5× Share : 11k
-*(Dijamin ngalir 100%)*
-
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿✦
-
-*- Sistem Jasher -*
-Tf - Share - Ss bukti share - Done
-
-*- Payment -*
-Gopay / Dana
-
-*👱‍♂️ : Testi ada ?*
-
-*👱‍♀️ : Cek sendiri* https://instagram.com/chelllstore?utm_medium=copy_link
-
-*👱‍♂️ : Ngalir gak nieh??*
-
-*👱‍♀️ : Insya allah ngalir deress*
-
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿✦
-
-*- Minat? chat!! -*
-https://wa.me/62822961308923
-
-*- Group 1 -*
-chat.whatsapp.com/BkdDOFUCsV3FYnhsxSSN4Z
-
-*- Group 2-*
-chat.whatsapp.com/E46XvKzHIVb3TOmteo4roi
-
-*- Group 3-*
-chat.whatsapp.com/FXdVGZnjM6UENjlDUGn85F
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿✦
-│█│▌║│▌║│█║▌│█
-
-     *©Chellstore*
-
-
-*#COPYLIST = YATIMM!!! AAMIIN...*
-`
-sendButLocation(from, `${menu}`, `${uwu}© Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'ORDER DONG KAK🥺'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+ listMsg = {
+ buttonText: 'CLICK HERE',
+ footerText: ' 𝗝𝗔𝗦𝗔 𝗦𝗛𝗔𝗥𝗘 𝗕𝗬 𝗖𝗛𝗘𝗟𝗟𝗦𝗧𝗢𝗥𝗘 ',
+ description: ` `,
+ sections: [
+                     {
+                      "title": `${jmn} - ${week} ${weton} - ${calender}`,
+ rows: [
+                          {
+                              "title": "1× Share 50 grup = 500",
+                              "rowId": ""
+                           },                           
+                           {
+                              "title": "2× Share 50 grup = 1.000",
+                              "rowId": ""
+                            },
+                            {
+                              "title": "3× Share 50 grup = 1.500",
+                              "rowId": ""
+                              },                           
+                           {
+                              "title": "4× Share 50 grup = 1.000",
+                              "rowId": ""
+                            },
+                            {
+                              "title": "5× Share 50 grup = 1.500",
+                              "rowId": ""
+                              },                           
+                           {
+                           "title": "_______________________________",
+                              "rowId": ""
+                            },
+                            {
+                              "title": "1× Share 100 grup = 1.000",
+                              "rowId": ""
+                            },
+                            {
+                              "title": "2× Share 100 grup = 2.000",
+                              "rowId": ""
+                              },                           
+                           {
+                              "title": "3× Share 100 grup = 3.000",
+                              "rowId": ""
+                            },
+                            {
+                              "title": "4× Share 100 grup = 4.000",
+                              "rowId": ""
+                             },                           
+                           {
+                              "title": "5× Share 100 grup = 5.000",
+                              "rowId": ""
+                            },
+                            {
+                            "title": "_______________________________",
+                              "rowId": ""
+                            },
+                            {
+                              "title": "1× Share 200 grup = 2.000",
+                              "rowId": "" 
+                            },                           
+                           {
+                              "title": "2× Share 200 grup = 4.000",
+                              "rowId": ""
+                            },
+                            {
+                              "title": "3× Share 200 grup = 6.000",
+                              "rowId": ""
+                             },                           
+                           {
+                              "title": "4× Share 200 grup = 8.000",
+                              "rowId": ""
+                            },
+                            {
+                              "title": "5× Share 200 grup = 10.000",
+                              "rowId": ""                                                      
+                           }
+                        ]
+                     }],
+ listType: 1
+}
+pemuda.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [sender]},quoted:ftrol})
 break
+
+
 
 case 'ovo13':
  listMsg = {
