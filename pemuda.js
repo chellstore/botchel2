@@ -934,10 +934,6 @@ if (budy.includes(`ssalamualaikum`)) {
                   lima = fs.readFileSync('./30detik/salam.mp3');
 pemuda.sendMessage(from, lima, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`🥴`)) {
-                  satu = fs.readFileSync('./30detik/loli.mp3');
-pemuda.sendMessage(from, satu, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
 if (budy.includes(`💃`)) {
                   satu = fs.readFileSync('./30detik/3.mp3');
 pemuda.sendMessage(from, satu, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
@@ -958,17 +954,13 @@ if (budy.includes(`abxjzhs`)) {
                   lima = fs.readFileSync('./30detik/admin.mp3');
 pemuda.sendMessage(from, lima, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`🤙`)) {
-                  lima = fs.readFileSync('./30detik/bernyanyi.mp3');
-pemuda.sendMessage(from, lima, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-}
 if (budy.includes(`🐱`)) {
                   lima = fs.readFileSync('./30detik/bergabung.mp3');
 pemuda.sendMessage(from, lima, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-//•======>> SUBSCRIBE : Chellbot<<====•\\
-			if (bad.includes(messagesD)) {
-				reply('_Jangan Toxic!_')
+//•======>> SUBSCRIBE : Chellbot<<====•\\		
+				if (bad.includes(messagesD)) {
+				reply('_*TF ? Scan pp*_')
 				}
 				if (m.message && !m.key.fromMe && m.isBaileys && m.quoted && m.quoted.mtype === 'orderMessage' && !(m.quoted.token && m.quoted.orderId)) {
 m.reply('Troli Detected\n\n' + require('util').format(m.key))
