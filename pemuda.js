@@ -6493,7 +6493,7 @@ break
 case 'dana': 				
                     wew = fs.readFileSync(`./media/dana.jpg`)
                       lzain = `*Caranya :*
-1. Buka Aplikasi DANA di HP-mu.
+1. Buka Aplikasi *DANA* di HP-mu.
 2. Pilih Pay / Bayar
 3. Scan Barcode diatas *GOPAY*
 4. Masukkan Nominal Pembayaran
@@ -6506,7 +6506,7 @@ break
 case 'gopay': 				
                     wew = fs.readFileSync(`./media/qrcode.jpg`)
                       lzain = `*Caranya :*
-1. Buka Aplikasi GOPAY di HP-mu.
+1. Buka Aplikasi *GOPAY# di HP-mu.
 2. Pilih Pay / Bayar
 3. Scan Barcode diatas *GOPAY*
 4. Masukkan Nominal Pembayaran
@@ -7381,6 +7381,56 @@ case 'ovo12':
 pemuda.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [stod]},quoted:ftrol})
 break
 
+case 'js':
+        ptod = "62822961308923@s.whatsapp.net"
+        stod = `${sender}`
+        uwu = '```'
+       stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+			
+       menu = `${uwu}Paket 50 Group${uwu}`
+       sendButLocation(from, `${menu}`, `${uwu}©Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}50group`,buttonText:{displayText:'📦PAKET 50 GRUP'},type:1},{buttonId:`${prefix}100group`,buttonText:{displayText:'📦PAKET 100 GRUP'},type:1},{buttonId:`${prefix}200group`,buttonText:{displayText:'📦PAKET 200 GRUP'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+break
+case '50group':
+        ptod = "62822961308923@s.whatsapp.net"
+        stod = `${sender}`
+        uwu = '```'
+       stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+			
+       menu = `*Paket 50 Group*
+${uwu}1× Share = 500
+2× Share = 1.000
+3× Share = 1.500${uwu}`
+       sendButLocation(from, `${menu}`, `${uwu}©Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+break
+case '100group':
+        ptod = "62822961308923@s.whatsapp.net"
+        stod = `${sender}`
+        uwu = '```'
+       stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+			
+       menu = `*Paket 100 Group*
+${uwu}1× Share = 1.000
+2× Share = 2.000
+3× Share = 3.000${uwu}`
+       sendButLocation(from, `${menu}`, `${uwu}©Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+break
+case '200group':
+        ptod = "62822961308923@s.whatsapp.net"
+        stod = `${sender}`
+        uwu = '```'
+       stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+			
+       menu = `*Paket 200 Group*
+${uwu}1× Share = 2.000
+2× Share = 4.000
+3× Share = 6.000${uwu}`
+       sendButLocation(from, `${menu}`, `${uwu}©Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+break
+
 case 'owner':
         ptod = "62822961308923@s.whatsapp.net"
         stod = `${sender}`
@@ -7415,11 +7465,11 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
                       "title": `${jmn} - ${week} ${weton} - ${calender}`,
  rows: [
                           {
-                              "title": "1× Share 50 grup = 500",
+                              "title": "PAKET50GROUP",
                               "rowId": ""
                            },                           
                            {
-                              "title": "2× Share 50 grup = 1.000",
+                              "title": "PAKET100GROUP",
                               "rowId": ""
                             },
                             {
