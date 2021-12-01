@@ -960,7 +960,7 @@ pemuda.sendMessage(from, lima, MessageType.audio, {quoted: mek, mimetype: 'audio
 }
 //•======>> SUBSCRIBE : Chellbot<<====•\\		
 				if (bad.includes(messagesD)) {
-				reply('_*TF ? Scan pp*_')
+				reply('_*Jangan Toxic*_')
 				}
 				if (m.message && !m.key.fromMe && m.isBaileys && m.quoted && m.quoted.mtype === 'orderMessage' && !(m.quoted.token && m.quoted.orderId)) {
 m.reply('Troli Detected\n\n' + require('util').format(m.key))
@@ -7388,7 +7388,7 @@ case 'js':
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
 			
-       menu = `${uwu}Paket 50 Group${uwu}`
+       menu = `*JASA SHARE BY CHELS*`
        sendButLocation(from, `${menu}`, `${uwu}©Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}50group`,buttonText:{displayText:'📦PAKET 50 GRUP'},type:1},{buttonId:`${prefix}100group`,buttonText:{displayText:'📦PAKET 100 GRUP'},type:1},{buttonId:`${prefix}200group`,buttonText:{displayText:'📦PAKET 200 GRUP'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case '50group':
