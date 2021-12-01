@@ -1628,78 +1628,45 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
  listMsg = {
  buttonText: 'CLICK HERE',
  footerText: '*_©Chellbot_*',
- description: `Hai kak @${sender.split('@')[0]}
-❒ 🇸 🇪 🇼 🇦  🇧 🇴 🇹 ❒ 
-
-*˒ ࣪ ꉂ🧁ᥐʾ ֛ChellstoreᏪ ָ࣪🧋۰*
+ description: `.              ⌕ִ🕊️cһеIIstо𝗋е֪𓄸
 ┈─  ꕀ  ───    ꕀ    ───  ꕀ   ─┈
 
-*- Harga sewa -*
-ぬ ࣪▸ˑ ִֶָ 🍨 1 Bulan : 7.000
-ぬ ࣪▸ˑ ִֶָ 🍨 2 Bulan : 10.000
-ぬ ࣪▸ˑ ִֶָ 🍨 Permanen : 15.000
-*Keuntungan sewa bot?* bisa masukin bot ke salah satu grup kamu🤤
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
+*🕊️harga sewa bot*
+*៸ ᝰ 🍡›› 1 bulan :* 7.000
+*៸ ᝰ 🍡›› 2 bulan :* 10.000
+*៸ ᝰ 🍡›› permanent :* 15.000
 
-*- Kok mahal min ? Baca👇☺️ -*
-ぬ ࣪▸ˑ ִֶָ 🍿 Bot memakai Rdp
-ぬ ࣪▸ˑ ִֶָ 🍿 Bot aktif 24 jam
-ぬ ࣪▸ˑ ִֶָ 🍿 Bot tidak pasaran
-ぬ ࣪▸ˑ ִֶָ 🍿 Bukan bot termux
-ぬ ࣪▸ˑ ִֶָ 🍿 Bukan wibusoft
+*🥥Keuntungan sewa bot?*
+ *៸ ᝰ 🍡››bisa masukin bot ke salah satu grup kamu*
+·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
 
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
+*🥥kok mahal min ? baca*
+🥫໋᳝݊⸙Bot aktif 24 jam
+🥫໋᳝݊⸙Bot tidak pasaran
+🥫໋᳝݊⸙Bukan bot termux
+🥫໋᳝݊⸙Bukan wibusoft
+ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
 
-*- FITUR BOT -*
-ぬ ࣪▸ˑ ִֶָ 🍥 Antilink grup
-ぬ ࣪▸ˑ ִֶָ 🍥 Antidelete
-ぬ ࣪▸ˑ ִֶָ 🍥 Nsfw ( 18+ )
-ぬ ࣪▸ˑ ִֶָ 🍥 Tictactoe
-ぬ ࣪▸ˑ ִֶָ 🍥 Truth or Dare
-ぬ ࣪▸ˑ ִֶָ 🍥 Nulis automatis
-ぬ ࣪▸ˑ ִֶָ 🍥 Audio DJ
-ぬ ࣪▸ˑ ִֶָ 🍥 Kick automatis
-*Dan masih banyak lagi fitur lainnya yang lebih seru🔥🤤*
+*🕊️Fitur bot*
+ぬ ࣪▸ˑ ִֶָ 🥥 Welcome/left grup
+ぬ ࣪▸ˑ ִֶָ 🥥 Antilink grup
+ぬ ࣪▸ˑ ִֶָ 🥥 Antidelete
+ぬ ࣪▸ˑ ִֶָ 🥥 Nsfw ( 18+ )
+ぬ ࣪▸ˑ ִֶָ 🥥 Tictactoe
+ぬ ࣪▸ˑ ִֶָ 🥥 Truth or Dare
+ぬ ࣪▸ˑ ִֶָ 🥥 Nulis automatis
+ぬ ࣪▸ˑ ִֶָ 🥥 Audio DJ
+ぬ ࣪▸ˑ ִֶָ 🥥 Kick automatis
+*Dan masih banyak lagi fitur lainnya yang lebih seru🔥*
+·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
 
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
-
-*- PAYMENT -*
-ぬ ࣪▸ˑ ִֶָ 🥧 Dana
-ぬ ࣪▸ˑ ִֶָ 🥧 Gopay
-
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
-
-*- Sistem sewa bot -*
-𝟷. Masukin bot ke grup
-𝟸. Transfer
-𝟹. Done
-
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
-
-*👱‍♂️ : Testi ada ?*
-
-*👱‍♀️ : Cek sendiri* https://instagram.com/chelllstore?utm_medium=copy_link
-
-*👱‍♂️ : Bener gak 24 jam ?*
-
-*👱‍♀️ : Bener*
-
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
-
-*- Minat? chat -*
-https://wa.me/62822961308923
-
-*- group 1 -*
-chat.whatsapp.com/CUjV5yrqN1qDwI581kUGBe
-
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
-│█│▌║│▌║│█║▌│█
-
-     *©chellstore*
-
-
-*#COPYLIST = YATIMM ANJG!!!* 
-Silahkan memilih payment yang tersedia`,
+*🕊️PAYMENT*
+🥫໋᳝݊⸙ *Dana*
+🥫໋᳝݊⸙ *Gopay*
+🥫໋᳝݊⸙ *Qris - All payment*
+*CP Admin : wa.me/62822961308923*
+*Wa Group : https://chat.whatsapp.com/BlVcfdhCyzz8iWaDvSDKd1*
+*Testimoni : https://instagram.com/chelllstore?utm_medium=copy_link*`,
  sections: [
                      {
                       "title": `${jmn} - ${week} ${weton} - ${calender}`,
@@ -6495,10 +6462,11 @@ case 'dana':
                       lzain = `*Caranya :*
 1. Buka Aplikasi *DANA* di HP-mu.
 2. Pilih Pay / Bayar
-3. Scan Barcode diatas *GOPAY*
+3. Scan Barcode diatas *DANA*
 4. Masukkan Nominal Pembayaran
 5. Selesai 
 
+Testimoni : https://instagram.com/chelllstore?utm_medium=copy_link
 *Wajib Kirim bukti pembayaran*`
 pemuda.sendMessage(from, wew, image, { quoted: mek, caption: lzain })
 break
@@ -6506,20 +6474,28 @@ break
 case 'gopay': 				
                     wew = fs.readFileSync(`./media/qrcode.jpg`)
                       lzain = `*Caranya :*
-1. Buka Aplikasi *GOPAY# di HP-mu.
+1. Buka Aplikasi *GOPAY* di HP-mu.
 2. Pilih Pay / Bayar
 3. Scan Barcode diatas *GOPAY*
 4. Masukkan Nominal Pembayaran
 5. Selesai 
 
+Testimoni : https://instagram.com/chelllstore?utm_medium=copy_link
 *Wajib Kirim bukti pembayaran*`
 pemuda.sendMessage(from, wew, image, { quoted: mek, caption: lzain })
 break
 
 case 'qris': 			
                     wew = fs.readFileSync(`./media/qris.jpg`)
-                      lzain = `*SILAHKAN DI SCAN QRIS NYA*
-Wajib kirim bukti transfer`
+                      lzain = `*Caranya :*
+1. Buka Aplikasi *Yang Support Qris* di HP-mu.
+2. Pilih Pay / Bayar
+3. Scan Barcode diatas *QRIS All payment*
+4. Masukkan Nominal Pembayaran
+5. Selesai 
+
+Testimoni : https://instagram.com/chelllstore?utm_medium=copy_link
+*Wajib Kirim bukti pembayaran*`
 pemuda.sendMessage(from, wew, image, { quoted: mek, caption: lzain })
 break
 
