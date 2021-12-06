@@ -7365,11 +7365,10 @@ case 'js':
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
 			
-       menu = `*JASA SHARE BY CHELS*
+       menu = `*LIST JASA SHARE*
+       
 *˒ ࣪ ꉂ🍭ᥐʾ ֛ᥴһᥱᥣs𝗍᥆rᥱᏪ ָ࣪🍩۰*
 ┈─  ꕀ  ───    ꕀ    ───  ꕀ   ─┈
-
-*ᥣіs𝗍 ȷᥲsᥲ sһᥲrᥱ*
 
 *- 🌸 ⍴ᥲkᥱ𝗍 50 gr᥆ᥙ⍴*
 ꉂ🍨1× sһᥲrᥱ = 500
@@ -7409,9 +7408,8 @@ https://chat.whatsapp.com/BlVcfdhCyzz8iWaDvSDKd1
 
 ──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
 
-│█│▌║│▌║│█║▌│█
- ©ᥴһᥱᥣs𝗍᥆rᥱ`
-       sendButLocation(from, `${menu}`, `${uwu}©Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+│█│▌║│▌║│█║▌│█`
+       sendButLocation(from, `${menu}`, `${uwu}©ᥴһᥱᥣs𝗍᥆rᥱ${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case '50group':
         ptod = "62822961308923@s.whatsapp.net"
