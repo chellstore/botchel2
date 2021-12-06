@@ -1664,6 +1664,7 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
 🥫໋᳝݊⸙ *Dana*
 🥫໋᳝݊⸙ *Gopay*
 🥫໋᳝݊⸙ *Qris - All payment*
+
 *CP Admin : wa.me/62822961308923*
 *Wa Group : https://chat.whatsapp.com/BlVcfdhCyzz8iWaDvSDKd1*
 *Testimoni : https://instagram.com/chelllstore?utm_medium=copy_link*`,
@@ -7364,8 +7365,53 @@ case 'js':
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
 			
-       menu = `*JASA SHARE BY CHELS*`
-       sendButLocation(from, `${menu}`, `${uwu}©Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}50group`,buttonText:{displayText:'📦PAKET 50 GRUP'},type:1},{buttonId:`${prefix}100group`,buttonText:{displayText:'📦PAKET 100 GRUP'},type:1},{buttonId:`${prefix}200group`,buttonText:{displayText:'📦PAKET 200 GRUP'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+       menu = `*JASA SHARE BY CHELS*
+*˒ ࣪ ꉂ🍭ᥐʾ ֛ᥴһᥱᥣs𝗍᥆rᥱᏪ ָ࣪🍩۰*
+┈─  ꕀ  ───    ꕀ    ───  ꕀ   ─┈
+
+*ᥣіs𝗍 ȷᥲsᥲ sһᥲrᥱ*
+
+*- 🌸` ⍴ᥲkᥱ𝗍 50 gr᥆ᥙ⍴*
+ꉂ🍨1× sһᥲrᥱ = 500
+ꉂ🍨2× sһᥲrᥱ = 1.000
+ꉂ🍨3× sһᥲrᥱ = 1.500
+
+*- 🌸` ⍴ᥲkᥱ𝗍 100 gr᥆ᥙ⍴*
+ꉂ🍨1× sһᥲrᥱ = 1.000
+ꉂ🍨2× sһᥲrᥱ = 2.000
+ꉂ🍨3× sһᥲrᥱ = 3.000
+
+*- 🌸` ⍴ᥲkᥱ𝗍 200 gr᥆ᥙ⍴*
+ꉂ🍨1× sһᥲrᥱ = 2.000
+ꉂ🍨2× sһᥲrᥱ = 4.000
+ꉂ🍨3× sһᥲrᥱ = 6.000
+
+*- 🌸` ⍴ᥲkᥱ𝗍 250 gr᥆ᥙ⍴*
+ꉂ🍨1× sһᥲrᥱ = 2.000
+ꉂ🍨2× sһᥲrᥱ = 4.000
+ꉂ🍨3× sһᥲrᥱ = 6.000
+
+*- 🌸` ⍴ᥲᥡmᥱᥒ𝗍*
+ꉂ🍨g᥆⍴ᥲᥡ
+ꉂ🍨ძᥲᥒᥲ
+ꉂ🍨𝗊rіs ᥲᥣᥣ ⍴ᥲᥡmᥱᥒ𝗍
+
+*- 📞 ᥴ᥆ᥒ𝗍ᥲᥴ𝗍*
+https://wa.me/62822961308923
+
+*- 🛡️ 𝗍ᥱs𝗍іm᥆ᥒі*
+https://instagram.com/chelllstore?utm_medium=copy_link
+
+*- 👥 gr᥆ᥙ⍴*
+https://chat.whatsapp.com/BlVcfdhCyzz8iWaDvSDKd1
+
+(ᥒ) ȷᥲsᥲ sһᥲrᥱ ᑲᥱrᥙ⍴ᥲ 𝗍ᥱks/ᥣіs𝗍, 𝗍іძᥲk mᥱᥒᥱrіmᥲ gᥲmᑲᥲr ᥲ𝗍ᥲᥙ 𝖿᥆𝗍᥆.
+
+──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
+
+│█│▌║│▌║│█║▌│█
+ ©ᥴһᥱᥣs𝗍᥆rᥱ`
+       sendButLocation(from, `${menu}`, `${uwu}©Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case '50group':
         ptod = "62822961308923@s.whatsapp.net"
