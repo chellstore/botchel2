@@ -1031,7 +1031,7 @@ pemuda.updatePresence(from, Presence.recording)
 				}
         switch (command) {
         case 'order':
-        ptod = "62822961308923@s.whatsapp.net"
+        ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -1057,7 +1057,7 @@ sendButLocation(from, `${menu}`, `${uwu}© Chellbot${uwu}`, {jpegThumbnail:ofrpl
 break
 
 case 'joingrup':
-        ptod = "62822961308923@s.whatsapp.net"
+        ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -1085,7 +1085,7 @@ case 'joingroup':
 case 'jg':
 if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
-        ptod = "62822961308923@s.whatsapp.net"
+        ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -1119,7 +1119,7 @@ chat.whatsapp.com/GfFoDVEVa2C0WXyPpkqugY
 https://instagram.com/chelllstore?utm_medium=copy_link
 
 *ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ*
-wa.me/62822961308923
+wa.me/62896465831949
 ──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
 │█│▌║│▌║│█║▌│█
      *©ᴄʜᴇʟʟsᴛᴏʀᴇ*
@@ -1128,7 +1128,7 @@ wa.me/62822961308923
 sendButLocation(from, `${menu}`, `${uwu}© Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}owner`,buttonText:{displayText:'OWNER'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break       
 case 'done':
-        ptod = "62822961308923@s.whatsapp.net"
+        ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -1138,7 +1138,7 @@ case 'done':
        sendButLocation(from, `${menu}`, `${uwu}©Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}dnnn`,buttonText:{displayText:'DONE'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case 'menu':
-        ptod = "62822961308923@s.whatsapp.net"
+        ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -1249,7 +1249,6 @@ _*↳˳⸙;; ❝ Fun Menu ᵕ̈ ೫˚∗:*_
 • _${prefix}cekganteng_
 • _${prefix}cekcantik_
 • _${prefix}slots_
-• _${prefix}pantun_
 • _${prefix}suit [ gunting/batu/kertas ]_
 • _${prefix}cekmati_
 • _${prefix}zodiak_
@@ -1358,8 +1357,6 @@ _*↳˳⸙;; ❝ Group Menu ᵕ̈ ೫˚∗:*_
 • _${prefix}delttt_
 • _${prefix}getpp_
 • _${prefix}kick [ @tag ]_
-• _${prefix}kik [ Reply Pesan ]_
-• _${prefix}ad [ Reply Pesan ]_
 • _${prefix}getdeskgc_
 • _${prefix}sider [ reply pesan bot ]_
 • _${prefix}hacked [ teks ]_
@@ -1389,23 +1386,6 @@ _*↳˳⸙;; ❝ Nsfw Menu ᵕ̈ ೫˚∗:*_
 • _${prefix}blowjob_
 • _${prefix}hentai_
 • _${prefix}awoo_
-• _${prefix}bj_
-• _${prefix}eroneko_
-• _${prefix}lesbian_
-• _${prefix}anal_
-• _${prefix}yuri_
-• _${prefix}baka_
-• _${prefix}neko2_
-• _${prefix}wallpaper_
-• _${prefix}pussy_
-• _${prefix}kitsune_
-• _${prefix}keta_
-• _${prefix}neko2_
-• _${prefix}poke_
-• _${prefix}slap_
-• _${prefix}komiku [ query ]_
-• _${prefix}otaku [ query ]_
-• _${prefix}chara [ query ]_
 
 
 
@@ -1469,7 +1449,13 @@ _*↳˳⸙;; ❝ Sound Menu ᵕ̈ ೫˚∗:*_
 • _${prefix}21_
 • _${prefix}22_
 • _${prefix}23_
-• _${prefix}kejujoget_
+• _${prefix}24_
+• _${prefix}25_
+• _${prefix}26_
+• _${prefix}27_
+• _${prefix}28_
+• _${prefix}29_
+• _${prefix}30_
 
 
 
@@ -1522,7 +1508,7 @@ Silahkan memilih payment yang tersedia`,
 pemuda.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [sender]},quoted:ftrol})
 break
 
-case '1bulan':
+case '1minggu':
 stod = `${sender}`
 stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
 
@@ -1530,7 +1516,7 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
  buttonText: 'CLICK HERE',
  footerText: '*_©Chellbot_*',
  description: `Hai kak @${sender.split('@')[0]}
-*Harga bot 1 bulan yaitu 7.000*
+*Harga bot 1 minggu yaitu 10.000*
 *Jika berminat silahkan memilih payment yang tersedia*`,
  sections: [
                      {
@@ -1554,7 +1540,7 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
 }
 pemuda.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [sender]},quoted:ftrol})
 break
-case '2bulan':
+case '1bulan':
 stod = `${sender}`
 stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
 
@@ -1562,7 +1548,7 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
  buttonText: 'CLICK HERE',
  footerText: '*_©Chellbot_*',
  description: `Hai kak @${sender.split('@')[0]}
-*Harga bot 2 bulan yaitu 10.000*
+*Harga bot 1 bulan yaitu 15.000*
 *Jika berminat silahkan memilih payment yang tersedia*`,
  sections: [
                      {
@@ -1595,7 +1581,7 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
  buttonText: 'CLICK HERE',
  footerText: '*_©Chellbot_*',
  description: `Hai kak @${sender.split('@')[0]}
-*Harga bot permanen yaitu 15.000*
+*Harga bot permanen yaitu 25.000*
 *Jika berminat silahkan memilih payment yang tersedia*`,
  sections: [
                      {
@@ -1628,61 +1614,62 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
  listMsg = {
  buttonText: 'CLICK HERE',
  footerText: '*_©Chellbot_*',
- description: `.              ⌕ִ🕊️cһеIIstо𝗋е֪𓄸
-┈─  ꕀ  ───    ꕀ    ───  ꕀ   ─┈
+ description: `*LIST JASA SEWA BOT*
+       
+*˒ ࣪ ꉂ🍭ᥐʾ ֛ᥴһᥱᥣs𝗍᥆rᥱᏪ ָ࣪🍩۰*
+┈─  ꕀ  ───    ꕀ    ───  ꕀ   ─┈
 
-*🕊️harga sewa bot*
-*៸ ᝰ 🍡›› 1 bulan :* 7.000
-*៸ ᝰ 🍡›› 2 bulan :* 10.000
-*៸ ᝰ 🍡›› permanent :* 15.000
+*- 🌸 HARGA BOT*
+ꉂ🍨1 mіᥒggᥙ = 10.000/grᥙ⍴
+ꉂ🍨1 ᑲᥙᥣᥲᥒ = 15.000/grᥙ⍴
+ꉂ🍨⍴ᥱrmᥲᥒᥱᥒ = 25.000/grᥙ⍴
 
-*🥥Keuntungan sewa bot?*
- *៸ ᝰ 🍡››bisa masukin bot ke salah satu grup kamu*
-·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
+*- 🌸 FITUR BOT*
+ꉂ🍨ᥕᥱᥣᥴ᥆mᥱ & ᥣᥱ𝖿𝗍
+ꉂ🍨ᥲᥒ𝗍іᥣіᥒk gr᥆ᥙ⍴
+ꉂ🍨ᥒs𝖿ᥕ
+ꉂ🍨𝗍іᥴ𝗍ᥲᥴ𝗍᥆ᥱ
+ꉂ🍨ᥲᥒ𝗍іᥣіᥒk gr᥆ᥙ⍴
+ꉂ🍨kіᥴk ᥲᥙ𝗍᥆mᥲ𝗍іs
+ꉂ🍨᥎ᥒ mᥙsіᥴ ძȷ
+ꉂ🍨ᥲᥒ𝗍іძᥱᥣᥱ𝗍ᥱ
+ꉂ🍨s𝗍іᥴkᥱr
+ძᥲᥒ mᥲsіһ ᑲᥲᥒᥡᥲk ᥣᥲgі 𝖿і𝗍ᥙr ᥣᥲіᥒᥒᥡᥲ...
 
-*🥥kok mahal min ? baca*
-🥫໋᳝݊⸙Bot aktif 24 jam
-🥫໋᳝݊⸙Bot tidak pasaran
-🥫໋᳝݊⸙Bukan bot termux
-🥫໋᳝݊⸙Bukan wibusoft
- ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
+*- 🌸 PAYMENT*
+ꉂ🍨g᥆⍴ᥲᥡ
+ꉂ🍨ძᥲᥒᥲ
+ꉂ🍨𝗊rіs ᥲᥣᥣ ⍴ᥲᥡmᥱᥒ𝗍
 
-*🕊️Fitur bot*
-ぬ ࣪▸ˑ ִֶָ 🥥 Welcome/left grup
-ぬ ࣪▸ˑ ִֶָ 🥥 Antilink grup
-ぬ ࣪▸ˑ ִֶָ 🥥 Antidelete
-ぬ ࣪▸ˑ ִֶָ 🥥 Nsfw ( 18+ )
-ぬ ࣪▸ˑ ִֶָ 🥥 Tictactoe
-ぬ ࣪▸ˑ ִֶָ 🥥 Truth or Dare
-ぬ ࣪▸ˑ ִֶָ 🥥 Nulis automatis
-ぬ ࣪▸ˑ ִֶָ 🥥 Audio DJ
-ぬ ࣪▸ˑ ִֶָ 🥥 Kick automatis
-*Dan masih banyak lagi fitur lainnya yang lebih seru🔥*
-·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
+*- 📞 CONTACT*
+https://wa.me/62896465831949
 
-*🕊️PAYMENT*
-🥫໋᳝݊⸙ *Dana*
-🥫໋᳝݊⸙ *Gopay*
-🥫໋᳝݊⸙ *Qris - All payment*
+*- 🛡️ TESTIMONI*
+https://instagram.com/chelllstore?utm_medium=copy_link
 
-*CP Admin : wa.me/62822961308923*
-*Wa Group : https://chat.whatsapp.com/BlVcfdhCyzz8iWaDvSDKd1*
-*Testimoni : https://instagram.com/chelllstore?utm_medium=copy_link*`,
+*- 👥 GROUP*
+https://chat.whatsapp.com/BlVcfdhCyzz8iWaDvSDKd1
+
+(ᥒ) ȷіkᥲ ᑲ᥆𝗍 ძі kᥱᥣᥙᥲrkᥲᥒ ძᥲrі gr᥆ᥙ⍴ mᥲkᥲ mᥲsᥲ ᥲk𝗍і𝖿 ᑲ᥆𝗍 ძі gr᥆ᥙ⍴ kᥲmᥙ ᥲkᥲᥒ һᥲᑲіs, ძᥲᥒ ȷіkᥲ іᥒgіᥒ ⍴іᥒძᥲһіᥒ ᑲ᥆𝗍 kᥱ grᥙ⍴ ᥣᥲіᥒ һᥲrᥙs ᑲᥲᥡᥲr 2.000
+
+──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
+
+│█│▌║│▌║│█║▌│█`,
  sections: [
                      {
                       "title": `${jmn} - ${week} ${weton} - ${calender}`,
  rows: [
                           {
-                              "title": "1BULAN",
-                              "rowId": "7.000"
+                              "title": "1MINGGU",
+                              "rowId": "10.000"
                            },                           
                            {
-                              "title": "2BULAN",
-                              "rowId": "10.000"
+                              "title": "1BULAN",
+                              "rowId": "15.000"
                             },
                             {
                               "title": "PERMANEN",
-                              "rowId": "15.000"
+                              "rowId": "25.000"
                            }
                         ]
                      }],
@@ -4499,16 +4486,7 @@ break
 				var bot = gh.split("|")[2];
 			    pemuda.sendMessage(from, `${bot}`, text, {quoted: { key: { fromMe: false, participant: `${parti}@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { conversation: `${targetq}` }}})
 					break
-case 'tagall':
-					members_id = []
-					teks = (args.length > 1) ? body.slice(8).trim() : '*Info :*'
-					teks += '\n\n'
-					for (let mem of groupMembers) {
-						teks += `• @${mem.jid.split('@')[0]}\n`
-						members_id.push(mem.jid)
-					}
-					reply(teks)
-					break
+
 			case 'hidetag':
 			if (!isGroupAdmins) return reply(mess.only.admin)
 					if (!isGroup) return reply(ind.groupo())
@@ -4562,7 +4540,7 @@ case 'tagall':
 					break
 ////===///////JUALAN DIAMOND\\\\\\======\\\\
 case 'listharga':
-        ptod = "62822961308923@s.whatsapp.net"
+        ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -4598,7 +4576,7 @@ case 'pembayaran' :
   *Dana* : 085656884416
 *Indosat* : 085656884416
 
-_Note : Semua Jenis Transasi harap konfirmasi ke Penjual, Pilih Button menu TAWAR untuk Mulai Bertransaksi_`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Klik ini untuk Konfirmasi Pembayaran",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./pemuda_1.jpg'),sourceUrl:"https://wa.me/62822961308923?text=Kak%20Mau%20Konfirmasi%20Pembayaran,%20Otw%20Kirim%20Bukti%20Yahh.."}}})
+_Note : Semua Jenis Transasi harap konfirmasi ke Penjual, Pilih Button menu TAWAR untuk Mulai Bertransaksi_`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Klik ini untuk Konfirmasi Pembayaran",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./pemuda_1.jpg'),sourceUrl:"https://wa.me/62896465831949?text=Kak%20Mau%20Konfirmasi%20Pembayaran,%20Otw%20Kirim%20Bukti%20Yahh.."}}})
   break
 case 'transaksi' :
 let ini_kontak = []
@@ -6546,7 +6524,7 @@ TF - SEND LIST - PROSES - DONE
 👤INSYA ALLAH
 
 𝗖𝗼𝗻𝘁𝗮𝗰𝘁
-https://wa.me/62822961308923?text=Chel+order+jasa+share`
+https://wa.me/62896465831949?text=Chel+order+jasa+share`
 pemuda.sendMessage(from, wew, image, { quoted: mek, caption: lzain })
 break
 
@@ -6590,7 +6568,7 @@ buttons = [{buttonId:`${prefix}menu`,buttonText:{displayText:'BACK'},type:1},{bu
                pemuda.relayWAMessage(prep)
                break 
                case 'arcibot':
-        ptod = "62838165647110@s.whatsapp.net"
+        ptod = "+62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -7359,7 +7337,7 @@ pemuda.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { menti
 break
 
 case 'js':
-        ptod = "62822961308923@s.whatsapp.net"
+        ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -7396,7 +7374,7 @@ case 'js':
 ꉂ🍨𝗊rіs ᥲᥣᥣ ⍴ᥲᥡmᥱᥒ𝗍
 
 *- 📞 ᥴ᥆ᥒ𝗍ᥲᥴ𝗍*
-https://wa.me/62822961308923
+https://wa.me/62896465831949
 
 *- 🛡️ 𝗍ᥱs𝗍іm᥆ᥒі*
 https://instagram.com/chelllstore?utm_medium=copy_link
@@ -7412,7 +7390,7 @@ https://chat.whatsapp.com/BlVcfdhCyzz8iWaDvSDKd1
        sendButLocation(from, `${menu}`, `${uwu}©ᥴһᥱᥣs𝗍᥆rᥱ${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case '50group':
-        ptod = "62822961308923@s.whatsapp.net"
+        ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -7425,7 +7403,7 @@ ${uwu}1× Share = 500
        sendButLocation(from, `${menu}`, `${uwu}©Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case '100group':
-        ptod = "62822961308923@s.whatsapp.net"
+        ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -7438,7 +7416,7 @@ ${uwu}1× Share = 1.000
        sendButLocation(from, `${menu}`, `${uwu}©Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case '200group':
-        ptod = "62822961308923@s.whatsapp.net"
+        ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -7452,7 +7430,7 @@ ${uwu}1× Share = 2.000
 break
 
 case 'owner':
-        ptod = "62822961308923@s.whatsapp.net"
+        ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
@@ -7462,7 +7440,7 @@ case 'owner':
        sendButLocation(from, `${menu}`, `${uwu}© Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}sb`,buttonText:{displayText:'MAU ORDER BOT'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case 'orderan':
-        ptod = "62822961308923@s.whatsapp.net"
+        ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
