@@ -124,7 +124,6 @@ ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
 music = false
-antidelete = false
 baterai = {
 battery: "" || "Tidak Terdeteksi",
 isCharge: "" || false
@@ -1350,7 +1349,6 @@ _*↳˳⸙;; ❝ Group Menu ᵕ̈ ೫˚∗:*_
 • _${prefix}demote [ @tag ]_
 • _${prefix}antilink [ 1/0 ]_
 • _${prefix}antibug  [ 1/0 ]_
-• _${prefix}antidelete [ 1/0 ]_
 • _${prefix}nsfw [ 1/0 ]_
 • _${prefix}creategrup [ nama|@tag ]_
 • _${prefix}tictactoe [ @tag ]_
@@ -3484,19 +3482,7 @@ case 'antibug':
           reply('Pilih 1 atau 0')
           }
           break
-     case 'antidelete':
-      if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
-       if (args.length < 1) return reply(`Cara Makeknya ${prefix}antidelete on/off`)
-           if (c === 'on'){
-             antidelete = false
-                    reply(`Berhasil mengaktifkan antidelete`)
-                } else if (c === 'off'){
-                    antidelete = true
-                    reply(`Berhasil menonaktifkan antidelete`)
-                } else {
-                    reply(mess.error.api)
-                }
-                break
+     
 				 case 'antilink':
 	        if (!isGroup) return reply(mess.only.group)
 			if (!isGroupAdmins) return reply(mess.only.admin)
@@ -6478,41 +6464,56 @@ break
 case 'dana': 				
                     wew = fs.readFileSync(`./media/dana.jpg`)
                       lzain = `*Caranya :*
+                      
 1. Buka Aplikasi *DANA* di HP-mu.
 2. Pilih Pay / Bayar
 3. Scan Barcode diatas *DANA*
 4. Masukkan Nominal Pembayaran
 5. Selesai 
 
-Testimoni : https://instagram.com/chelllstore?utm_medium=copy_link
-*Wajib Kirim bukti pembayaran*`
+*Testimoni* : https://instagram.com/chelllstore?utm_medium=copy_link
+
+*Ingin transaksi ?* harap konfirmasi ke owner
+wa.me/62896465831949
+
+*Wajib kirim bukti pembayaran*`
 pemuda.sendMessage(from, wew, image, { quoted: mek, caption: lzain })
 break
 
 case 'gopay': 				
                     wew = fs.readFileSync(`./media/qrcode.jpg`)
                       lzain = `*Caranya :*
+                      
 1. Buka Aplikasi *GOPAY* di HP-mu.
 2. Pilih Pay / Bayar
 3. Scan Barcode diatas *GOPAY*
 4. Masukkan Nominal Pembayaran
 5. Selesai 
 
-Testimoni : https://instagram.com/chelllstore?utm_medium=copy_link
-*Wajib Kirim bukti pembayaran*`
+*Testimoni* : https://instagram.com/chelllstore?utm_medium=copy_link
+
+*Ingin transaksi ?* harap konfirmasi ke owner
+wa.me/62896465831949
+
+*Wajib kirim bukti pembayaran*`
 pemuda.sendMessage(from, wew, image, { quoted: mek, caption: lzain })
 break
 
 case 'qris': 			
                     wew = fs.readFileSync(`./media/qris.jpg`)
                       lzain = `*Caranya :*
+                      
 1. Buka Aplikasi *Yang Support Qris* di HP-mu.
 2. Pilih Pay / Bayar
 3. Scan Barcode diatas *QRIS All payment*
 4. Masukkan Nominal Pembayaran
 5. Selesai 
 
-Testimoni : https://instagram.com/chelllstore?utm_medium=copy_link
+*Testimoni* : https://instagram.com/chelllstore?utm_medium=copy_link
+
+*Ingin transaksi ?* harap konfirmasi ke owner
+wa.me/62896465831949
+
 *Wajib Kirim bukti pembayaran*`
 pemuda.sendMessage(from, wew, image, { quoted: mek, caption: lzain })
 break
