@@ -1548,7 +1548,7 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
  buttonText: 'CLICK HERE',
  footerText: '*_©Chellbot_*',
  description: `Hai kak @${sender.split('@')[0]}
-*Harga bot 1 bulan yaitu 15.000*
+*Harga bot 1 bulan yaitu 10.000*
 *Jika berminat silahkan memilih payment yang tersedia*`,
  sections: [
                      {
@@ -1581,7 +1581,7 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
  buttonText: 'CLICK HERE',
  footerText: '*_©Chellbot_*',
  description: `Hai kak @${sender.split('@')[0]}
-*Harga bot permanen yaitu 25.000*
+*Harga bot permanen yaitu 20.000*
 *Jika berminat silahkan memilih payment yang tersedia*`,
  sections: [
                      {
@@ -1620,9 +1620,8 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
 ┈─  ꕀ  ───    ꕀ    ───  ꕀ   ─┈
 
 *- 🌸 HARGA BOT*
-ꉂ🍨1 mіᥒggᥙ = 10.000/grᥙ⍴
-ꉂ🍨1 ᑲᥙᥣᥲᥒ = 15.000/grᥙ⍴
-ꉂ🍨⍴ᥱrmᥲᥒᥱᥒ = 25.000/grᥙ⍴
+ꉂ🍨1 ᑲᥙᥣᥲᥒ = 10.000/grᥙ⍴
+ꉂ🍨⍴ᥱrmᥲᥒᥱᥒ = 20.000/grᥙ⍴
 
 *- 🌸 FITUR BOT*
 ꉂ🍨ᥕᥱᥣᥴ᥆mᥱ & ᥣᥱ𝖿𝗍
@@ -1658,18 +1657,14 @@ https://chat.whatsapp.com/BlVcfdhCyzz8iWaDvSDKd1
  sections: [
                      {
                       "title": `${jmn} - ${week} ${weton} - ${calender}`,
- rows: [
-                          {
-                              "title": "1MINGGU",
-                              "rowId": "10.000"
-                           },                           
+ rows: [                          
                            {
                               "title": "1BULAN",
-                              "rowId": "15.000"
+                              "rowId": "10.000"
                             },
                             {
                               "title": "PERMANEN",
-                              "rowId": "25.000"
+                              "rowId": "20.000"
                            }
                         ]
                      }],
