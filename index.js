@@ -201,7 +201,7 @@ function doProgress()
 	{
 		setTimeout( function() { console.clear(),
 		exec(`screenfetch -A Deepin`, (error, stdout, stderr) => {
-			console.log(stdout), console.log(bgcolor('Subcribe : Nanda Style', 'red'))})}, 200 ) ;
+			console.log(stdout), console.log(bgcolor('Subcribe : Chellstore', 'red'))})}, 200 ) ;
 	}
 	else
 	{
@@ -214,10 +214,10 @@ console.log(color(figlet.textSync(`${settings.NamaBot}`, {
 		vertivalLayout: 'default',
 		width: 50,
 		whitespaceBreak: true
-	    }), 'lightgreen')), term.slowTyping('By Denis Putra - Recode by Nanda Style' ,{ flashStyle: term.brightWhite })
+	    }), 'lightgreen')), term.slowTyping('By Chellstore' ,{ flashStyle: term.brightWhite })
 progressBar = term.progressBar( {
 	width: 80 ,
-	title: '\n\nLoading cuyy' ,
+	title: '\n\nLoading, tunggu sebentar...' ,
 	eta: true ,
 	percent: true
 } ) ;
