@@ -7337,10 +7337,10 @@ case 'jasashare':
        stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
 			
-       menu = `*LIST JASA SHARE*
+       menu = `🇯‌🇦‌🇸‌🇦‌ 🇸‌🇭‌🇦‌🇷‌🇪‌ 🇴‌🇵‌🇧‌🇷‌
        
-*˒ ࣪ ꉂ🍭ᥐʾ ֛ᥴһᥱᥣs𝗍᥆rᥱᏪ ָ࣪🍩۰*
-┈─  ꕀ  ───    ꕀ    ───  ꕀ   ─┈
+*☁️ ֙ 𖥻 Chellstore*
+▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌
 
 *- 🌸 ⍴ᥲkᥱ𝗍 50 gr᥆ᥙ⍴*
 ꉂ🍨1× sһᥲrᥱ = 500
@@ -7367,21 +7367,20 @@ case 'jasashare':
 ꉂ🍨ძᥲᥒᥲ
 ꉂ🍨𝗊rіs ᥲᥣᥣ ⍴ᥲᥡmᥱᥒ𝗍
 
+*- 👥 gr᥆ᥙ⍴*
+https://chat.whatsapp.com/BlVcfdhCyzz8iWaDvSDKd1
+
 *- 📞 ᥴ᥆ᥒ𝗍ᥲᥴ𝗍*
 https://wa.me/62896465831949
 
 *- 🛡️ 𝗍ᥱs𝗍іm᥆ᥒі*
 https://instagram.com/chelllstore?utm_medium=copy_link
-
-*- 👥 gr᥆ᥙ⍴*
-https://chat.whatsapp.com/BlVcfdhCyzz8iWaDvSDKd1
-
+
 (ᥒ) ȷᥲsᥲ sһᥲrᥱ ᑲᥱrᥙ⍴ᥲ 𝗍ᥱks/ᥣіs𝗍, 𝗍іძᥲk mᥱᥒᥱrіmᥲ gᥲmᑲᥲr ᥲ𝗍ᥲᥙ 𝖿᥆𝗍᥆.
 
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
-
-│█│▌║│▌║│█║▌│█`
-       sendButLocation(from, `${menu}`, `${uwu}©ᥴһᥱᥣs𝗍᥆rᥱ${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+*║▌│█║▌│ █║▌│█│║▌*
+*www.cɦɛʟʟsȶօʀɛ.com*`
+       sendButLocation(from, `${menu}`, `${uwu}NoCopas${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case '50group':
         ptod = "62896465831949@s.whatsapp.net"
