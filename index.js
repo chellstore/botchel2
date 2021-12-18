@@ -232,7 +232,49 @@ progressBar = term.progressBar( {
 } ) ;
 doProgress() ;
 
-/**
+			var ase = new Date();
+                        var jamss = ase.getHours();
+                         switch(jamss){
+                case 0: jamss = "Midnight"; break;
+                case 1: jamss = "Midnight"; break;
+                case 2: jamss = "Midnight"; break;
+                case 3: jamss = "Midnight"; break;
+                case 4: jamss = "Midnight"; break;
+                case 5: jamss = "Dawn"; break;
+                case 6: jamss = "Morning"; break;
+                case 7: jamss = "Morning"; break;
+                case 8: jamss = "Morning"; break;
+                case 9: jamss = "Morning"; break;
+                case 10: jamss = "Morning"; break;
+                case 11: jamss = "Afternoon"; break;
+                case 12: jamss = "Zuhur"; break;
+                case 13: jamss = "Afternoon"; break;
+                case 14: jamss = "Afternoon"; break;
+                case 15: jamss = "Asr"; break;
+                case 16: jamss = "Afternoon"; break;
+                case 17: jamss = "Evening"; break;
+                case 18: jamss = "Maghrib"; break;
+                case 19: jamss = "Isha"; break;
+                case 20: jamss = "Night"; break;
+                case 21: jamss = "Night"; break;
+                case 22: jamss = "Midnight"; break;
+                case 23: jamss = "Midnight"; break;
+            }
+            var tampilUcapan = "" + jamss;
+            const jmn = moment.tz('Asia/Jakarta').format('HH:mm:ss')
+				let d = new Date
+				let locale = 'id'
+				let gmt = new Date(0).getTime() - new Date('1 Januari 2021').getTime()
+				const weton = ['Pahing', 'Pon','Wage','Kliwon','Legi'][Math.floor(((d * 1) + gmt) / 84600000) % 5]
+				const week = d.toLocaleDateString(locale, { weekday: 'long' })
+				const calender = d.toLocaleDateString(locale, {
+				day: 'numeric',
+				month: 'long',
+				year: 'numeric'
+		       })
+
+ // FAKE REPLY BY YOGI PEWE
+ 
  * Uncache if there is file change
  * @param {string} module Module name or path
  * @param {function} cb <optional> 
