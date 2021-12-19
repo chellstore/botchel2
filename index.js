@@ -77,11 +77,11 @@ exec(`cd /sdcard/download && play *mp3`)
     })   
         pemuda.on('group-participants-update', async (anu) => {
            mem = anu.participants[0]
-			const mdata = await pemuda.groupMetadata(anu.jid)
+			const metdata = await pemuda.groupMetadata(anu.jid)
 		    try {
 			console.log(anu)
 			if (anu.action == 'add') {
-			fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=6283162388082:6283162388082\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
+			fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${metdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=6283162388082:6283162388082\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
 		    num = anu.participants[0]
 			try {
 			ppimg = await pemuda.getProfilePicture(`${num.split('@')[0]}@c.us`)
@@ -89,19 +89,10 @@ exec(`cd /sdcard/download && play *mp3`)
 			ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 			}
 			let buff = await getBuffer(ppimg)
-			masuk =`*⩉⩉ ˑ 🌷💨 ٬٬ ࣪ αllo wɛll to ${mdata.subject}*
-࣪╰ ︶∪︶∪︶ ╯︶︶︶︶︶︶︶︶  
-࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ
-*⸼ 🐹 ֹ ׅ  ⊹ hαri/tαnggαl :* ${week}, ${calender}
-*⸼ 🐹 ֹ ׅ  ⊹ jαm :* ${timeWib}
-࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ  ࣪    ִ
-*🍓 ࣪ ⸼ ׂ  liαt dɛsk untuk info gc*
-*🍓 ࣪ ⸼ ׂ  ditunggu ordɛrαnnyα kαkα*
-
-║▌│█│║▌║││█║▌║▌║`
-            pemuda.sendMessage(mdata.id, masuk, MessageType.text, { quoted: fkontakk, thumbnail: fs.readFileSync('./pemuda_1.jpg'), contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Welcome To ${mdata.subject}`,body:"",mediaType:"2",thumbnail:buff,mediaUrl:`https://youtu.be/wS19qFRtFFI`}}})
+			masuk =`*⩉⩉ ˑ 🌷💨 ٬٬ ࣪ αllo wɛll to ${metdata.subject}*`
+            pemuda.sendMessage(metdata.id, masuk, MessageType.text, { quoted: fkontakk, thumbnail: fs.readFileSync('./pemuda_1.jpg'), contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Welcome To ${metdata.subject}`,body:"",mediaType:"2",thumbnail:buff,mediaUrl:`https://youtu.be/wS19qFRtFFI`}}})
 			} else if (anu.action == 'remove') {
-			fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=6283162388082:6283162388082\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
+			fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${metdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=6283162388082:6283162388082\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
 			num = anu.participants[0]
 			try {
 			ppimg = await pemuda.getProfilePicture(`${num.split('@')[0]}@c.us`)
@@ -110,21 +101,21 @@ exec(`cd /sdcard/download && play *mp3`)
 			}
 			let buff = await getBuffer(ppimg)
 			keluar =`*Selamat tinggal bebs😔*`
-            pemuda.sendMessage(mdata.id, keluar, MessageType.text, { quoted: fkontakk, thumbnail: fs.readFileSync('./pemuda_1.jpg'), contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Keluar Dari ${mdata.subject}`,body:"",mediaType:"2",thumbnail:buff,mediaUrl:`https://youtu.be/wS19qFRtFFI` }}})
+            pemuda.sendMessage(metdata.id, keluar, MessageType.text, { quoted: fkontakk, thumbnail: fs.readFileSync('./pemuda_1.jpg'), contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Keluar Dari ${metdata.subject}`,body:"",mediaType:"2",thumbnail:buff,mediaUrl:`https://youtu.be/wS19qFRtFFI` }}})
 			} else if (anu.action == 'promote') {
-fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=62895211144821:62895211144821\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
+fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${metdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=62895211144821:62895211144821\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
 num = anu.participants[0]
 
-teks = `*P R O M O T E - D E T E C T E D*\nUsername: @${num.split('@')[0]}\nTime : ${moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')}\nGroup: ${mdata.subject}\n\nSelamat Yah atas Kenaikan Pangkatnya 🔥`
-pemuda.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}, quoted: fkontakk})
-console.log(color('|TRM|'), color(`Promote Member ${num.split('@')[0]} In ${mdata.subject}`,  'cyan'))
+teks = `*P R O M O T E - D E T E C T E D*\nUsername: @${num.split('@')[0]}\nTime : ${moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')}\nGroup: ${metdata.subject}\n\nSelamat Yah atas Kenaikan Pangkatnya 🔥`
+pemuda.sendMessage(metdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}, quoted: fkontakk})
+console.log(color('|TRM|'), color(`Promote Member ${num.split('@')[0]} In ${metdata.subject}`,  'cyan'))
 } 
 else if (anu.action == 'demote') {
-fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=6283162388082:6283162388082\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
+fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${metdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=6283162388082:6283162388082\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
 num = anu.participants[0]
-teks = `*D E M O T E - D E T E C T E D*\nUsername: @${num.split('@')[0]}\nTime : ${moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')}\nGroup: ${mdata.subject}\n\nMamposs Nggak jadi Admin lagi, mangkanya yg Becuss..!!`
-pemuda.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}, quoted: fkontakk})
-console.log(color('|TRM|'), color(`Demote Admin ${num.split('@')[0]} In ${mdata.subject}`,  'cyan'))
+teks = `*D E M O T E - D E T E C T E D*\nUsername: @${num.split('@')[0]}\nTime : ${moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')}\nGroup: ${metdata.subject}\n\nMamposs Nggak jadi Admin lagi, mangkanya yg Becuss..!!`
+pemuda.sendMessage(metdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}, quoted: fkontakk})
+console.log(color('|TRM|'), color(`Demote Admin ${num.split('@')[0]} In ${metdata.subject}`,  'cyan'))
 }
 		    } catch (e) {
 			console.log('Error : %s', color(e, 'red'))
@@ -231,50 +222,7 @@ progressBar = term.progressBar( {
 	percent: true
 } ) ;
 doProgress() ;
-
-			var ase = new Date();
-                        var jamss = ase.getHours();
-                         switch(jamss){
-                case 0: jamss = "Midnight"; break;
-                case 1: jamss = "Midnight"; break;
-                case 2: jamss = "Midnight"; break;
-                case 3: jamss = "Midnight"; break;
-                case 4: jamss = "Midnight"; break;
-                case 5: jamss = "Dawn"; break;
-                case 6: jamss = "Morning"; break;
-                case 7: jamss = "Morning"; break;
-                case 8: jamss = "Morning"; break;
-                case 9: jamss = "Morning"; break;
-                case 10: jamss = "Morning"; break;
-                case 11: jamss = "Afternoon"; break;
-                case 12: jamss = "Zuhur"; break;
-                case 13: jamss = "Afternoon"; break;
-                case 14: jamss = "Afternoon"; break;
-                case 15: jamss = "Asr"; break;
-                case 16: jamss = "Afternoon"; break;
-                case 17: jamss = "Evening"; break;
-                case 18: jamss = "Maghrib"; break;
-                case 19: jamss = "Isha"; break;
-                case 20: jamss = "Night"; break;
-                case 21: jamss = "Night"; break;
-                case 22: jamss = "Midnight"; break;
-                case 23: jamss = "Midnight"; break;
-            }
-            var tampilUcapan = "" + jamss;
-            const jmn = moment.tz('Asia/Jakarta').format('HH:mm:ss')
-				let d = new Date
-				let locale = 'id'
-				let gmt = new Date(0).getTime() - new Date('1 Januari 2021').getTime()
-				const weton = ['Pahing', 'Pon','Wage','Kliwon','Legi'][Math.floor(((d * 1) + gmt) / 84600000) % 5]
-				const week = d.toLocaleDateString(locale, { weekday: 'long' })
-				const calender = d.toLocaleDateString(locale, {
-				day: 'numeric',
-				month: 'long',
-				year: 'numeric'
-		       })
-
- // FAKE REPLY BY YOGI PEWE
- 
+/**
  * Uncache if there is file change
  * @param {string} module Module name or path
  * @param {function} cb <optional> 
