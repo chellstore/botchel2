@@ -148,9 +148,10 @@ let bugc = true
 // APIKEY
 limitawal = 9999 //terserah mau ganti apa gak 
 memberlimit = 1 //terserah mau ganti apa gak 
+lolkey = settings.lolkey
 HunterApi = settings.HunterApi
 ZeksApi = settings.ZeksApi
-xchillds = 'XChillDs'
+xchillds = settings.xchillds
 
 const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
 
@@ -1604,22 +1605,22 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
 pemuda.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [sender]},quoted:ftrol})
 break
 
-case 'sewabot':
 case 'sb':
-stod = `${sender}`
-stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
-
- listMsg = {
- buttonText: 'CLICK HERE',
- footerText: '*_©Chellbot_*',
- description: `*LIST JASA SEWA BOT*
+case 'sewabot':
+        ptod = "62896465831949@s.whatsapp.net"
+        stod = `${sender}`
+        uwu = '```'
+       stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
+				stst = stst.status == 401 ? '' : stst.status
+			
+       menu = `🇯‌🇦‌🇸‌🇦‌ 🇸‌🇪‌🇼‌🇦‌ 🇧‌🇴‌🇹‌
        
-*˒ ࣪ ꉂ🍭ᥐʾ ֛ᥴһᥱᥣs𝗍᥆rᥱᏪ ָ࣪🍩۰*
-┈─  ꕀ  ───    ꕀ    ───  ꕀ   ─┈
+*☁️ ֙ 𖥻 Chellstore*
+▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌
 
 *- 🌸 HARGA BOT*
 ꉂ🍨1 ᑲᥙᥣᥲᥒ = 10.000/grᥙ⍴
-ꉂ🍨⍴ᥱrmᥲᥒᥱᥒ = 20.000/grᥙ⍴
+ꉂ🍨⍴ᥱrmᥲᥒᥱᥒ = 15.000/grᥙ⍴
 
 *- 🌸 FITUR BOT*
 ꉂ🍨ᥕᥱᥣᥴ᥆mᥱ & ᥣᥱ𝖿𝗍
@@ -1631,45 +1632,30 @@ stst = await pemuda.getStatus(`${sender.split('@')[0]}@c.us`)
 ꉂ🍨᥎ᥒ mᥙsіᥴ ძȷ
 ꉂ🍨ᥲᥒ𝗍іძᥱᥣᥱ𝗍ᥱ
 ꉂ🍨s𝗍іᥴkᥱr
-ძᥲᥒ mᥲsіһ ᑲᥲᥒᥡᥲk ᥣᥲgі 𝖿і𝗍ᥙr ᥣᥲіᥒᥒᥡᥲ...
+ძᥲᥒ mᥲsіһ ᑲᥲᥒᥡᥲk ᥣᥲgі 𝖿і𝗍ᥙr ᥣᥲіᥒᥒᥡᥲ.
 
-*- 🌸 PAYMENT*
+*- 🌸 ⍴ᥲᥡmᥱᥒ𝗍*
 ꉂ🍨g᥆⍴ᥲᥡ
 ꉂ🍨ძᥲᥒᥲ
 ꉂ🍨𝗊rіs ᥲᥣᥣ ⍴ᥲᥡmᥱᥒ𝗍
 
-*- 📞 CONTACT*
-https://wa.me/62896465831949
-
-*- 🛡️ TESTIMONI*
-https://instagram.com/chelllstore?utm_medium=copy_link
-
-*- 👥 GROUP*
+*- 👥 gr᥆ᥙ⍴*
 https://chat.whatsapp.com/BlVcfdhCyzz8iWaDvSDKd1
 
-(ᥒ) ȷіkᥲ ᑲ᥆𝗍 ძі kᥱᥣᥙᥲrkᥲᥒ ძᥲrі gr᥆ᥙ⍴ mᥲkᥲ mᥲsᥲ ᥲk𝗍і𝖿 ᑲ᥆𝗍 ძі gr᥆ᥙ⍴ kᥲmᥙ ᥲkᥲᥒ һᥲᑲіs, ძᥲᥒ ȷіkᥲ іᥒgіᥒ ⍴іᥒძᥲһіᥒ ᑲ᥆𝗍 kᥱ grᥙ⍴ ᥣᥲіᥒ һᥲrᥙs ᑲᥲᥡᥲr 2.000
+*- 📞 ᥴ᥆ᥒ𝗍ᥲᥴ𝗍*
+https://wa.me/62896465831949
 
-──────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿
+*- 🛡️ 𝗍ᥱs𝗍іm᥆ᥒі*
+https://instagram.com/chelllstore?utm_medium=copy_link
+
+(ᥒ) ȷіkᥲ ᑲ᥆𝗍 ძі kᥱᥣᥙᥲrkᥲᥒ ძᥲrі gr᥆ᥙ⍴ mᥲkᥲ mᥲsᥲ ᥲk𝗍і𝖿 ᑲ᥆𝗍 ძі gr᥆ᥙ⍴ kᥲmᥙ ᥲkᥲᥒ һᥲᑲіs, ძᥲᥒ ȷіkᥲ іᥒgіᥒ ⍴іᥒძᥲһіᥒ ᑲ᥆𝗍 kᥱ grᥙ⍴ ᥣᥲіᥒ һᥲrᥙs ᑲᥲᥡᥲr 2.000.
 
-│█│▌║│▌║│█║▌│█`,
- sections: [
-                     {
-                      "title": `${jmn} - ${week} ${weton} - ${calender}`,
- rows: [                          
-                           {
-                              "title": "1BULAN",
-                              "rowId": "10.000"
-                            },
-                            {
-                              "title": "PERMANEN",
-                              "rowId": "20.000"
-                           }
-                        ]
-                     }],
- listType: 1
-}
-pemuda.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mentionedJid: [sender]},quoted:ftrol})
+*║▌│█║▌│ █║▌│█│║▌*
+*www.cɦɛʟʟsȶօʀɛ.com*`
+       sendButLocation(from, `${menu}`, `${uwu}NoCopas${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'PAYMENT'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
+
+
 case 'shop':
 case 'store':
 stod = `${sender}`
@@ -5200,7 +5186,9 @@ break
 						break
 
 	case 'play':
-if (!isGroupAdmins) return reply(mess.only.admin)	
+	case 'music':
+	case 'musik':
+	case 'ytmp3':	
 if (!isGroup) return reply(mess.only.group)
 			if (args.length === 0) return reply(`Kirim perintah *${prefix}play* _Judul lagu yang akan dicari_`)
 
@@ -5216,7 +5204,7 @@ if (!isGroup) return reply(mess.only.group)
                            
                         .then(async (a) => {
                         if (Number(filesize) >= 100000) return sendMediaURL(from, thumb, `.•♫•♬• *PLAYING MUSIC* .•♫•♬•\n\n📜𝙏𝙞𝙩𝙡𝙚: ${title}\n🎁𝙏𝙮𝙥𝙚 : mp3\n𝙁𝙞𝙡𝙚 𝙎𝙞𝙯𝙚 : ${filesizeF}\n🖇𝙇𝙞𝙣𝙠 ${a.data}\n\n_Untuk durasi lebih dari batas disajikan dalam mektuk link_`)
-                        const captions = `.•♫•♬• *PLAYING MUSIC* .•♫•♬•\n\n📜𝙏𝙞𝙩𝙡𝙚: ${title}\n🎁𝙏𝙮𝙥𝙚 : mp3\n𝙁𝙞𝙡𝙚 𝙎𝙞𝙯𝙚 : ${filesizeF}\n🖇𝙇𝙞𝙣𝙠 ${a.data}\n\n_Untuk durasi lebih dari batas disajikan dalam mektuk link_`
+                        const captions = `.•♫•♬• *PLAYING MUSIC* .•♫•♬•\n\n📜𝙏𝙞𝙩𝙡𝙚: ${title}\n🎁𝙏𝙮𝙥𝙚 : mp3\n𝙁𝙞𝙡𝙚 𝙎𝙞𝙯𝙚 : ${filesizeF}\n🖇𝙇𝙞𝙣𝙠 ${a.data}\n\n_Untuk durasi lebih dari batas disajikan dalam bentuk link_`
                         sendMediaURL(from, thumb, captions)
                         await sendMediaURL(from, dl_link).catch(() => reply('error'))
                         })                
@@ -5650,6 +5638,17 @@ case 'antibule':
 		    pemuda.groupRemove(from, [kick])
 						reply('Sukses mengeluarkan peserta')
                     break
+                    
+                    case 'add':
+			if (!isGroup) return reply(mess.only.group)
+			if (!isGroupAdmins) return reply(mess.only.admin)
+			if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+			if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Reply Pesan Targetnya!')
+			add = mek.message.extendedTextMessage.contextInfo.participant
+		    pemuda.groupAdd(from, [add])
+				reply('Sukses menambahkan peserta')
+				break
+				
                     case 'banned':
              if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)       
 			if (!isGroup) return reply(mess.only.group)
@@ -5678,6 +5677,9 @@ case 'antibule':
 					reply(`Sukses membuat grup ${argz[0]}`)
                 }
 				break
+				
+				
+				
 			case 'addrespon':
 			if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
 				if (args.length < 1) return reply(`Penggunaan ${prefix}addrespon hai|hai juga`)
@@ -7342,11 +7344,6 @@ case 'jasashare':
 *☁️ ֙ 𖥻 Chellstore*
 ▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌▔ٰ‌ּ‌￣ּ֪▔ٰ‌ּ‌
 
-*- 🌸 ⍴ᥲkᥱ𝗍 50 gr᥆ᥙ⍴*
-ꉂ🍨1× sһᥲrᥱ = 500
-ꉂ🍨2× sһᥲrᥱ = 1.000
-ꉂ🍨3× sһᥲrᥱ = 1.500
-
 *- 🌸 ⍴ᥲkᥱ𝗍 100 gr᥆ᥙ⍴*
 ꉂ🍨1× sһᥲrᥱ = 1.000
 ꉂ🍨2× sһᥲrᥱ = 2.000
@@ -7357,10 +7354,10 @@ case 'jasashare':
 ꉂ🍨2× sһᥲrᥱ = 4.000
 ꉂ🍨3× sһᥲrᥱ = 6.000
 
-*- 🌸 ⍴ᥲkᥱ𝗍 250 gr᥆ᥙ⍴*
-ꉂ🍨1× sһᥲrᥱ = 2.500
-ꉂ🍨2× sһᥲrᥱ = 5.000
-ꉂ🍨3× sһᥲrᥱ = 7.500
+*- 🌸 ⍴ᥲkᥱ𝗍 300 gr᥆ᥙ⍴*
+ꉂ🍨1× sһᥲrᥱ = 3.000
+ꉂ🍨2× sһᥲrᥱ = 6.000
+ꉂ🍨3× sһᥲrᥱ = 9.000
 
 *- 🌸 ⍴ᥲᥡmᥱᥒ𝗍*
 ꉂ🍨g᥆⍴ᥲᥡ
@@ -7380,7 +7377,7 @@ https://instagram.com/chelllstore?utm_medium=copy_link
 
 *║▌│█║▌│ █║▌│█│║▌*
 *www.cɦɛʟʟsȶօʀɛ.com*`
-       sendButLocation(from, `${menu}`, `${uwu}NoCopas${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+       sendButLocation(from, `${menu}`, `${uwu}NoCopas${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'PAYMENT'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 case '50group':
         ptod = "62896465831949@s.whatsapp.net"
@@ -7422,7 +7419,8 @@ ${uwu}1× Share = 2.000
        sendButLocation(from, `${menu}`, `${uwu}©Chellbot${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}payment`,buttonText:{displayText:'MAU ORDER KAK'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 break
 
-case 'owner':
+case 'owner':	
+if (!isGroup) return reply(mess.only.group)
         ptod = "62896465831949@s.whatsapp.net"
         stod = `${sender}`
         uwu = '```'

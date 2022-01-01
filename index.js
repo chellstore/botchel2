@@ -21,7 +21,7 @@ nocache('./pemuda.js', module => console.log(color('|TRM|'), color(`${module} Up
 
 async function starts() {
 pemuda.autoReconnect = ReconnectMode.onConnectionLost
-    pemuda.version = [2, 2143, 3]
+    pemuda.version = [2, 2147, 16]
     pemuda.logger.level = 'warn'
     pemuda.browserDescription = ['Chells','Desktop','3.0']
     await sleep(10000)
@@ -89,7 +89,7 @@ exec(`cd /sdcard/download && play *mp3`)
 			ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 			}
 			let buff = await getBuffer(ppimg)
-			masuk =`*⩉⩉ ˑ 🌷💨 ٬٬ ࣪ αllo wɛll to ${metdata.subject}*`
+			masuk =`*ˑ🌷Hαllo, wɛllcomɛ to ${metdata.subject}😻*`
             pemuda.sendMessage(metdata.id, masuk, MessageType.text, { quoted: fkontakk, thumbnail: fs.readFileSync('./pemuda_1.jpg'), contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Welcome To ${metdata.subject}`,body:"",mediaType:"2",thumbnail:buff,mediaUrl:`https://youtu.be/wS19qFRtFFI`}}})
 			} else if (anu.action == 'remove') {
 			fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${metdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=6283162388082:6283162388082\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
@@ -100,7 +100,7 @@ exec(`cd /sdcard/download && play *mp3`)
 			ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 			}
 			let buff = await getBuffer(ppimg)
-			keluar =`*Selamat tinggal bebs😔*`
+			keluar =`*Selamat tinggal 👋*`
             pemuda.sendMessage(metdata.id, keluar, MessageType.text, { quoted: fkontakk, thumbnail: fs.readFileSync('./pemuda_1.jpg'), contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Keluar Dari ${metdata.subject}`,body:"",mediaType:"2",thumbnail:buff,mediaUrl:`https://youtu.be/wS19qFRtFFI` }}})
 			} else if (anu.action == 'promote') {
 fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${metdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;pemuda;;;\nFN:pemuda\nitem1.TEL;waid=62895211144821:62895211144821\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
